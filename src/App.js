@@ -63,7 +63,6 @@ function App() {
               </div>
               <button
                 onClick={(e) => {
-                  e.preventDefault;
                   request(`${process.env.REACT_APP_API}/todo`, "POST", {
                     task,
                   });
